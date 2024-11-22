@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://example.com/klient.schema.json",
+  "$id": "https://github.com/anch1968/json/blob/main/klient.schema.json",
   "title": "Klient",
   "description": "Ein Klient",
   "type": "object",
