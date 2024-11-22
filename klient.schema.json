@@ -21,8 +21,7 @@
         },
         "age":{
             "description":"Age of the client",
-            "type":"integer",
-            "minimum":0
+            "type":"number"
         }
     }
 }
