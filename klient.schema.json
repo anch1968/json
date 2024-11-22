@@ -7,7 +7,6 @@
     "required":[
         "clientId",
         "clientName",
-        "location",
         "age"
     ],
     "properties":{
