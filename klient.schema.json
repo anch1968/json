@@ -1,26 +1,28 @@
 {
-   "$schema":"https://json-schema.org/draft/2020-12/schema",
-   "$id":"https://github.com/anch1968/json/blob/main/klient.schema.json",
-   "title":"Klient",
-   "description":"Ein Klient",
-   "type":"object",
-   "properties":{
-      "clientId":{
-         "description":"The unique identifier for a client",
-         "type":"integer"
-      },
-      "clientName":{
-         "description":"Name of the client",
-         "type":"string"
-      },
-      "age":{
-         "description":"Age of the client",
-         "type":"integer"
-      },
-      "required":[
-         "clientId",
-         "clientName",
-         "age"
-      ]
-   }
+    "$schema":"https://json-schema.org/draft/2020-12/schema",
+    "$id":"https://github.com/anch1968/json/blob/main/klient.schema.json",
+    "title":"Klient",
+    "description":"Ein Klient",
+    "type":"object",
+    "required":[
+        "clientId",
+        "clientName",
+        "location",
+        "age"
+    ],
+    "properties":{
+        "clientId":{
+            "description":"The unique identifier for a client",
+            "type":"number"
+        },
+        "clientName":{
+            "description":"Name of the client",
+            "type":"string"
+        },
+        "age":{
+            "description":"Age of the client",
+            "type":"integer",
+            "minimum":0
+        }
+    }
 }
