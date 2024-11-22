@@ -4,11 +4,6 @@
     "title":"Klient",
     "description":"Ein Klient",
     "type":"object",
-    "required":[
-        "clientId",
-        "clientName",
-        "age"
-    ],
     "properties":{
         "clientId":{
             "description":"The unique identifier for a client",
