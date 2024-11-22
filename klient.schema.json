@@ -1,13 +1,12 @@
 {
-    "$schema":"https://json-schema.org/draft/2020-12/schema",
-    "$id":"https://github.com/anch1968/json/blob/main/klient.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title":"Klient",
     "description":"Ein Klient",
     "type":"object",
     "properties":{
-        "clientId":{
+        "id":{
             "description":"The unique identifier for a client",
-            "type":"number"
+            "type":"integer"
         },
         "clientName":{
             "description":"Name of the client",
@@ -16,6 +15,8 @@
         "age":{
             "description":"Age of the client",
             "type":"number"
+            "exclusiveMinimum":0
         }
-    }
+    },
+    "required": ["id",  "clientName", "age"]
 }
