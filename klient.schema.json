@@ -15,43 +15,5 @@
             "type": "number"
         }
     },
-    "title" : "Class Title"
-}
-
-
-{
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://json-schema.org/draft/2020-12/schema",
-
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://example.com/klient.schema.json",
-    "title": "Klient Details",
-    "description": "Ein Klient",
-    "type": "object",
-    "$defs": {
-        "Klient": {
-            "title": "Ein Klient",
-            "type": "object",
-            "properties": {
-                "id": {
-                    "description": "The unique identifier for a client",
-                    "type": "integer"
-                },
-                "clientName": {
-                    "description": "Name of the client",
-                    "type": "string"
-                },
-                "age": {
-                    "description": "Age of the client",
-                    "type": "number",
-                    "exclusiveMinimum": 0
-                }
-            },
-            "required": [
-                "id",
-                "clientName",
-                "age"
-            ]
-        }
-    }
+    "title" : "Klient Title"
 }
