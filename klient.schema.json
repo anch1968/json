@@ -1,4 +1,28 @@
 {
+    "$schema" : "https://json-schema.org/draft/2020-12/schema",
+    "type" : "object",
+    "properties" : {
+        "id" : {
+            "type" : "string",
+            "format" : "integer"
+        },
+        "clientname" : {
+            "type": "string"
+            "title" : "Name of the client"
+        },
+        "age": {
+            "title": "Age of the client",
+            "type": "number"
+        }
+    },
+    "title" : "Class Title"
+}
+
+
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://json-schema.org/draft/2020-12/schema",
+
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://example.com/klient.schema.json",
     "title": "Klient Details",
