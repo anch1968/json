@@ -15,9 +15,9 @@
         },
         "age":{
             "description":"Age of the client",
-            "type":"number"
+            "type":"number",
             "exclusiveMinimum":0
         }
     },
-    "required": ["id",  "clientName", "age"]
+    "required":["id",  "clientName", "age"]
 }
