@@ -1,23 +1,27 @@
 {
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://example.com/klient.schema.json",
-    "title":"Klient",
-    "description":"Ein Klient",
-    "type":"object",
-    "properties":{
-        "id":{
-            "description":"The unique identifier for a client",
-            "type":"integer"
+    "title": "Klient",
+    "description": "Ein Klient",
+    "type": "object",
+    "properties": {
+        "id": {
+            "description": "The unique identifier for a client",
+            "type": "integer"
         },
-        "clientName":{
-            "description":"Name of the client",
-            "type":"string"
+        "clientName": {
+            "description": "Name of the client",
+            "type": "string"
         },
-        "age":{
-            "description":"Age of the client",
-            "type":"number",
-            "exclusiveMinimum":0
+        "age": {
+            "description": "Age of the client",
+            "type": "number",
+            "exclusiveMinimum": 0
         }
     },
-    "required":["id",  "clientName", "age"]
+    "required": [
+        "id",
+        "clientName",
+        "age"
+    ]
 }
